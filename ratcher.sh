@@ -22,7 +22,9 @@ echo $yellow "2.Moon-buggy"
 echo
 echo $yellow "3.Kalkulator"
 echo
-echo $yellow "4.Exit"
+echo $yellow "4.Kereta"
+echo
+echo $yellow "5.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
 
@@ -55,6 +57,16 @@ exit
 fi
 
 if [ $bad = 4 ]
+then
+echo $green"Loading.."
+sleep 2
+pkg install sl
+sl
+exit
+fi
+
+
+if [ $bad = 5 ]
 then
 sleep 2
 echo $red"exit"
