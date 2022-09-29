@@ -14,7 +14,8 @@ yellow='\033[33;1m'
 clear
 
 echo
-echo $green "RATCHER TOOLS"
+figlet "Ratcher" | lolcat
+date | lolcat
 echo
 echo $yellow "1.cmatrix"
 echo
@@ -24,7 +25,7 @@ echo $yellow "3.Kalkulator"
 echo
 echo $yellow "4.Kereta"
 echo
-echo $yellow "5.Exit"
+echo $yellow "0.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
 
@@ -66,7 +67,7 @@ exit
 fi
 
 
-if [ $bad = 5 ]
+if [ $bad = 0 ]
 then
 sleep 2
 echo $red"exit"
