@@ -96,7 +96,7 @@ python spamsms.py
 exit
 fi
 
-if [ $bad = 7]
+if [ $bad = 7 ]
 then
 echo $green"Loading..."
 git clone https://github.com/Ratcher98/santet
