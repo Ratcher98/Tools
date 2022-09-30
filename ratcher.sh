@@ -33,7 +33,7 @@ echo $yellow "7.Santet online"
 echo
 echo $yellow "8.RedHAWK"
 echo
-echo $yellow "9.Spam Sms random(sms/Wa)
+echo $yellow "9.Spam Sms random(sms/Wa)"
 echo
 echo $yellow "0.Exit"
 echo
