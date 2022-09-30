@@ -108,7 +108,7 @@ python santet.py
 exit
 fi
 
-fi [ $bad = 8 ]
+if [ $bad = 8 ]
 then
 echo $red"Loading..."
 pkg install php
