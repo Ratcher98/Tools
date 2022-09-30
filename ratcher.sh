@@ -25,6 +25,8 @@ echo $yellow "3.Kalkulator"
 echo
 echo $yellow "4.Kereta"
 echo
+echo $yellow "5.Cek IP"
+echo
 echo $yellow "0.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
@@ -66,6 +68,14 @@ sl
 exit
 fi
 
+if [ $bad = 5 ]
+then
+echo $green"Loading..."
+sleep 1
+pjg install net-tools
+ifconfig
+exit
+fi
 
 if [ $bad = 0 ]
 then
