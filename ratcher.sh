@@ -72,7 +72,7 @@ if [ $bad = 5 ]
 then
 echo $green"Loading..."
 sleep 1
-pjg install net-tools
+pkg install net-tools
 ifconfig
 exit
 fi
