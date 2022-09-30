@@ -33,6 +33,8 @@ echo $yellow "7.Santet online"
 echo
 echo $yellow "8.RedHAWK"
 echo
+echo $yellow "9.Spam Sms random(sms/Wa)
+echo
 echo $yellow "0.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
@@ -101,6 +103,8 @@ fi
 if [ $bad = 7 ]
 then
 echo $green"Loading..."
+pkg install python
+pkg install git
 git clone https://github.com/Ratcher98/santet
 cd santet
 python -m pip install -r requirements.txt
@@ -116,6 +120,18 @@ pkg install git
 git clone https://github.com/Tuhinshubhra/RED_HAWK
 cd RED_HAWK
 php rhawk.php
+exit
+fi
+
+if [ $bad = 9 ]
+then
+echo $green"Loading..."
+pkg install python
+pkg install git
+pip install requests
+git clone https://github.com/TZdev7/SpamNew/
+cd SpamNew
+python run.py
 exit
 fi
 
