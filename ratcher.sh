@@ -27,6 +27,8 @@ echo $yellow "4.Kereta"
 echo
 echo $yellow "5.Cek IP"
 echo
+echo $yellow "6.Spam Sms"
+echo
 echo $yellow "0.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
@@ -74,6 +76,21 @@ echo $green"Loading..."
 sleep 1
 pkg install net-tools
 ifconfig
+exit
+fi
+
+if [ $bad = 6 ]
+then
+echo $green"Loading..."
+pkg install python
+pkg install nano
+pkg install figlet
+pip install - -upgrade pip
+pip2 install requests
+pip install mechanize
+git clone https://github.com/Ratcher98/spamsms
+cd spamsms
+python spamsms.py
 exit
 fi
 
