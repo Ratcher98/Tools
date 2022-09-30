@@ -29,6 +29,8 @@ echo $yellow "5.Cek IP"
 echo
 echo $yellow "6.Spam Sms"
 echo
+echo $yellow "7.Santet online"
+echo
 echo $yellow "0.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
@@ -91,6 +93,16 @@ pip install mechanize
 git clone https://github.com/Ratcher98/spamsms
 cd spamsms
 python spamsms.py
+exit
+fi
+
+if [ $bad = 7]
+then
+echo $green"Loading..."
+git clone https://github.com/Ratcher98/santet
+cd santet
+python -m pip install -r requirements.txt
+python santet.py
 exit
 fi
 
