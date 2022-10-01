@@ -37,7 +37,10 @@ echo $yellow "9.Spam Sms random(sms/Wa)"
 echo
 echo $yellow "10.Virus"
 echo
-echo $yellow "0.Exit"
+echo $yellow  "11.Seeker"
+echo
+
+echo $yellow "00.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
 
@@ -148,7 +151,17 @@ python2 virus
 exit
 fi
 
-if [ $bad = 0 ]
+if [ $bad = 11 ]
+then
+echo $green"Loading..."
+git clone https://github.com/thewhiteh4t/seeker.git
+cd seeker
+chmod +x install.sh
+./install.sh
+exit
+fi
+
+if [ $bad = 00 ]
 then
 sleep 2
 echo $red"exit"
