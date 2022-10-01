@@ -37,9 +37,10 @@ echo $yellow "9.Spam Sms random(sms/Wa)"
 echo
 echo $yellow "10.Virus"
 echo
-echo $yellow  "11.Seeker"
+echo $yellow "11.Seeker"
 echo
-
+echo $yellow "12.Sara"
+echo
 echo $yellow "00.Exit"
 echo
 read -p "MASUKKAN INPUT:" bad
@@ -158,6 +159,16 @@ git clone https://github.com/thewhiteh4t/seeker.git
 cd seeker
 chmod +x install.sh
 ./install.sh
+exit
+fi
+
+if [ $bad = 12 ]
+then
+echo $green"Loading..."
+pkg install git
+git clone https://github.com/termuxhackers-id/SARA
+cd SARA
+bash installtermux.sh
 exit
 fi
 
