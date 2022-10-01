@@ -35,7 +35,7 @@ echo $yellow "8.RedHAWK"
 echo
 echo $yellow "9.Spam Sms random(sms/Wa)"
 echo
-echo $yellow "10.Metasploit"
+echo $yellow "10.Virus"
 echo
 echo $yellow "0.Exit"
 echo
@@ -139,14 +139,12 @@ fi
 
 if [ $bad = 10 ]
 then
-echo $red"Sabar cok"
-echo $red"Kalau gagal silakan install ulang metasploitnya"
-sleep 2
-pkg install wget curl
-cd $HOME
-wget https://raw.githubusercontent.com/bookofmoon/Termux-Metasploit-v6/main/metasploit-6-termux.sh -q
-cd metasploit-framework
-msfconsole
+echo $green"Loading..."
+pkg install python2
+pkg install git
+git clone https://github.com/darkhunter141/Virus-Lab
+cd Virus-Lab
+python2 virus
 exit
 fi
 
