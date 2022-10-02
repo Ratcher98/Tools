@@ -109,12 +109,6 @@ fi
 if [ $bad = 7 ]
 then
 echo $red"Maintenance njing ngeyel amat"
-
-git clone https://github.com/sullo/nikto
-cd nikto
-cd program
-. /nikro.pl
-  
 exit
 fi
 
