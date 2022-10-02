@@ -29,7 +29,7 @@ echo $yellow "5.Cek IP"
 echo
 echo $yellow "6.Spam Sms"
 echo
-echo $yellow "7.Santet online"
+echo $yellow "7.Lg maintenance"
 echo
 echo $yellow "8.RedHAWK"
 echo
@@ -108,13 +108,9 @@ fi
 
 if [ $bad = 7 ]
 then
-echo $green"Loading..."
-pkg install python
-pkg install git
-git clone https://github.com/Ratcher98/santet
-cd santet
-python -m pip install -r requirements.txt
-python santet.py
+echo $red"Maintenance njing ngeyel amat"
+
+
 exit
 fi
 
