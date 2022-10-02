@@ -153,7 +153,7 @@ then
 echo $green"Loading..."
 git clone https://github.com/thewhiteh4t/seeker.git
 cd seeker
-python seeker. py
+python seeker.py
 
 exit
 fi
