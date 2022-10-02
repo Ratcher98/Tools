@@ -157,8 +157,8 @@ then
 echo $green"Loading..."
 git clone https://github.com/thewhiteh4t/seeker.git
 cd seeker
-chmod +x install.sh
-./install.sh
+python seeker. py
+
 exit
 fi
 
