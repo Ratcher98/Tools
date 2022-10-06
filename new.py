@@ -17,7 +17,7 @@ sleep(1)
 os.system('clear')
 def main():
      password = input ('masukkan kata sandi : ')
-     if password == 'apacok' :
+     if password == 'AriTekk' :
        print ('kata sandi diterima')
        sleep(2)
        os.system('clear')
