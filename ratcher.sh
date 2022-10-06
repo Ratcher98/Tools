@@ -12,6 +12,20 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 
 clear
+figlet "Login"
+date | lolcat
+read -p "masukkan password   : " boy
+if [ $boy  = AriTekk ]
+then
+echo $green "Password Benar"
+sleep 2
+clear
+
+else
+sleep 2
+echo $red "Password salah"
+exit
+fi
 
 echo
 figlet "Ratcher" | lolcat
