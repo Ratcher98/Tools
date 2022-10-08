@@ -26,6 +26,7 @@ else
 sleep 2
 echo $red "Password salah"
 sleep 2
+sh ratcher.sh
 exit
 fi
 
