@@ -43,7 +43,7 @@ echo $yellow "5.Cek IP"
 echo
 echo $yellow "6.Spam Sms"
 echo
-echo $yellow "7.Lg maintenance"
+echo $yellow "7.Crack ig"
 echo
 echo $yellow "8.RedHAWK"
 echo
@@ -122,7 +122,16 @@ fi
 
 if [ $bad = 7 ]
 then
-echo $red"Maintenance njing ngeyel amat"
+pkg update && pkg upgrade
+pkg install python git
+pkg install wget curl
+pip install requests mechanize
+pip install bs4 future
+pip install rich stdiomask
+git clone https://github.com/Al-Vino/instagram3
+ls 
+cd instagram3
+python adj-ig3.py
 exit
 fi
 
