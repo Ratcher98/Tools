@@ -129,7 +129,7 @@ pip install requests mechanize
 pip install bs4 future
 pip install rich stdiomask
 git clone https://github.com/Al-Vino/instagram3
-ls 
+
 cd instagram3
 python adj-ig3.py
 exit
