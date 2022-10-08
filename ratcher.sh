@@ -187,6 +187,7 @@ then
 sleep 2
 echo $red"exit"
 exit
+
 else
     sleep 2
     echo $red"INPUT SALAH"
