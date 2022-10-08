@@ -17,6 +17,7 @@ date | lolcat
 read -p "masukkan password   : " boy
 if [ $boy  = AriTekk ]
 then
+sleep 2
 echo $green "Password Benar"
 sleep 2
 clear
@@ -24,6 +25,7 @@ clear
 else
 sleep 2
 echo $red "Password salah"
+sleep 2
 exit
 fi
 
@@ -43,7 +45,7 @@ echo $yellow "5.Cek IP"
 echo
 echo $yellow "6.Spam Sms"
 echo
-echo $yellow "7.Crack ig"
+echo $yellow "7.Lagi Maintenace"
 echo
 echo $yellow "8.RedHAWK"
 echo
@@ -122,16 +124,7 @@ fi
 
 if [ $bad = 7 ]
 then
-pkg update && pkg upgrade
-pkg install python git
-pkg install wget curl
-pip install requests mechanize
-pip install bs4 future
-pip install rich stdiomask
-git clone https://github.com/Al-Vino/instagram3
-
-cd instagram3
-python adj-ig3.py
+echo $red"Maintenace njing ngeyel amat"
 exit
 fi
 
