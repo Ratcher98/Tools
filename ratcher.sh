@@ -177,6 +177,8 @@ then
 echo $green"Loading..."
 git clone https://github.com/thewhiteh4t/seeker.git
 cd seeker
+sh install.sh
+sleep 3
 python seeker.py
 
 exit
