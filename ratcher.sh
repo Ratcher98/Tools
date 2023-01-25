@@ -14,8 +14,9 @@ yellow='\033[33;1m'
 clear
 figlet "Login"
 date | lolcat
-read -p "masukkan password   : " boy
-if [ $boy  = AriTekk ]
+read -p "masukkan username   : " boy
+read -p "masukkan password   : " boy1
+if [ $boy  = AriTekk ] && [ $boy1 = qwerty ]
 then
 sleep 2
 echo $green "Password Benar"
