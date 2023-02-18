@@ -17,7 +17,7 @@ date | lolcat
 read -p "masukkan username   : " boy
 stty -echo
 read -p "masukkan password   : " boy1
-stty -echo
+stty echo
 echo ""
 if [ $boy = AriTekk ] && [ $boy1 = qwerty ] 
 then
