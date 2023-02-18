@@ -64,7 +64,7 @@ echo $yellow "12.Sara"
 echo
 echo $yellow "00.Exit"
 echo
-read -p "MASUKKAN INPUT:" bad
+read -p "MASUKKAN INPUT : " bad
 
 if [ $bad = 1 ]
 then
