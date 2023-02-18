@@ -18,7 +18,7 @@ read -p "masukkan username   : " boy
 stty -echo
 read -p "masukkan password   : " boy1
 stty -echo
-echo "******"
+echo ""
 if [ $boy = AriTekk ] && [ $boy1 = qwerty ] 
 then
 sleep 2
