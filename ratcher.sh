@@ -18,7 +18,8 @@ read -p "masukkan username   : " boy
 stty -echo
 read -p "masukkan password   : " boy1
 stty -echo
-echo "*****"
+echo "******"
+if [ $boy=AriTekk ] && [ $boy1=qwerty ] 
 then
 sleep 2
 echo $green "Password Benar"
@@ -199,8 +200,9 @@ fi
 
 if [ $bad = 00 ]
 then
-sleep 2
+sleep 1
 echo $red"exit"
+sleep 3
 exit
 
 else
