@@ -15,8 +15,10 @@ clear
 figlet "Login"
 date | lolcat
 read -p "masukkan username   : " boy
+stty -echo
 read -p "masukkan password   : " boy1
-if [ $boy  = AriTekk ] && [ $boy1 = qwerty ]
+stty -echo
+echo "*****"
 then
 sleep 2
 echo $green "Password Benar"
