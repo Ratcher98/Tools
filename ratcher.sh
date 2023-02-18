@@ -19,7 +19,7 @@ stty -echo
 read -p "masukkan password   : " boy1
 stty -echo
 echo "******"
-if [ $boy=AriTekk ] && [ $boy1=qwerty ] 
+if [ $boy = AriTekk ] && [ $boy1 = qwerty ] 
 then
 sleep 2
 echo $green "Password Benar"
